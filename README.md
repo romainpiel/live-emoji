@@ -1,5 +1,7 @@
 # Live emojis
 
+![](image.gif)
+
 Animating Google emojis with Android animated vector drawables.
 
 All credits to [noto-emoji](https://github.com/googlei18n/noto-emoji) for the original emoji.

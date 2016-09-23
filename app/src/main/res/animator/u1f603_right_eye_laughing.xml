@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="pathData"
+        android:valueFrom="@string/u1f603_right_eye_open"
+        android:valueTo="@string/u1f603_right_eye_half_closed"
+        android:valueType="pathType"
+        android:duration="1000"
+        android:interpolator="@interpolator/slow_blink"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"/>
+</set>

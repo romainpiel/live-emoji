@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/emoji_u263a">
+    <target
+        android:animation="@animator/u263a_left_eye_blink"
+        android:name="left_eye"/>
+    <target
+        android:animation="@animator/u263a_right_eye_blink"
+        android:name="right_eye"/>
+    <target
+        android:animation="@animator/u1f603_laugh"
+        android:name="mouth"/>
+</animated-vector>

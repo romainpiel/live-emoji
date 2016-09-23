@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportHeight="128.0"
+    android:viewportWidth="128.0">
+    <path
+        android:name="skin"
+        android:fillColor="#FBB817"
+        android:pathData="M127.13,94.29c0,13.81 -28.17,25 -62.96,25c-34.78,0 -62.98,-11.2 -62.98,-25c0,-13.82 1.47,-83.61 62.98,-83.61C125.67,10.69 127.13,80.48 127.13,94.29" />
+    <path
+        android:name="left_eye"
+        android:fillColor="#2F2F2F"
+        android:pathData="@string/u1f603_left_eye_open" />
+    <path
+        android:name="right_eye"
+        android:fillColor="#2F2F2F"
+        android:pathData="@string/u1f603_right_eye_open" />
+    <group
+        android:name="mouth_group">
+        <path
+            android:name="mouth"
+            android:fillColor="#E75625"
+            android:pathData="@string/u1f603_mouth_about_to_laugh" />
+    </group>
+</vector>

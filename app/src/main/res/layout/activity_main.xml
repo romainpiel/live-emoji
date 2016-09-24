@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -22,4 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:src="@drawable/animated_emoji_u1f635"/>
+    <ImageView
+        android:id="@+id/u1f613"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/animated_emoji_u1f613"/>
 </LinearLayout>

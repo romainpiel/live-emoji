@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/u1f613_duration"
+        android:repeatCount="infinite">
+        <propertyValuesHolder
+            android:propertyName="fillAlpha">
+            <keyframe
+                android:fraction="0"
+                android:value="0"/>
+            <keyframe
+                android:fraction="0.25"
+                android:value="1"/>
+            <keyframe
+                android:fraction="0.75"
+                android:value="1"/>
+            <keyframe
+              android:fraction="1"
+              android:value="0"/>
+        </propertyValuesHolder>
+    </objectAnimator>
+</set>

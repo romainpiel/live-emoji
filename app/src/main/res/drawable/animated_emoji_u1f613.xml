@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/emoji_u1f613">
+    <target
+        android:animation="@animator/u1f613_sweat_drip"
+        android:name="sweat"/>
+    <target
+        android:animation="@animator/u1f613_sweat_drip_alpha"
+        android:name="sweat_path"/>
+</animated-vector>

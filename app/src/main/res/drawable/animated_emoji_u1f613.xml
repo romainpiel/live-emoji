@@ -4,4 +4,7 @@
     <target
         android:animation="@animator/u1f613_sweat_drip"
         android:name="sweat"/>
+    <target
+        android:animation="@animator/u1f613_sweat_drip_alpha"
+        android:name="sweat_path"/>
 </animated-vector>

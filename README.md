@@ -6,7 +6,10 @@ Animating Google emojis with Android animated vector drawables.
 
 All credits to [noto-emoji](https://github.com/googlei18n/noto-emoji) for the original emoji.
 
-Feel free to submit a PR with other emoji, it will make me happy.
+## Can't see your favourite emoji?
+
+- Find the svg [there](https://github.com/googlei18n/noto-emoji) and play with it
+- Or just post an issue with your idea!
 
 ## License
 ```

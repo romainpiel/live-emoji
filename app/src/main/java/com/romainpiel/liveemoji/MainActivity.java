@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView u1f603 = (ImageView) findViewById(R.id.u1f603);
         ImageView u263a = (ImageView) findViewById(R.id.u263a);
         ImageView u1f635 = (ImageView) findViewById(R.id.u1f635);
-        animate(u1f603, u263a, u1f635);
+        ImageView u1f60e = (ImageView) findViewById(R.id.u1f60e);
+        animate(u1f603, u263a, u1f635, u1f60e);
     }
 
     private void animate(ImageView... imageViews) {

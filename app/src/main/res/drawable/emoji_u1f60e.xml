@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportHeight="128"
+    android:viewportWidth="128">
+
+    <path
+        android:name="skin"
+        android:fillColor="#FCC21B"
+        android:pathData="M127.51,93.55 C127.51,107.48,99.08,118.77,64,118.77C28.92,118.77,0.48,107.48,0.48,93.55 C0.49,79.62,1.96,9.23,64,9.23S127.51,79.62,127.51,93.55" />
+    <path
+        android:name="mouth"
+        android:fillColor="#2F2F2F"
+        android:pathData="M62.78,105.52 C 59.44,105.52,56.25,105.25,53.35,104.85C51.99,104.67,51.04,103.41,51.23,102.05 C51.42,100.7,52.7,99.75,54.03,99.93C64.74,101.42,79.71,100.97,90.26,90.42 C91.23,89.45,92.81,89.45,93.77,90.42C94.75,91.39,94.75,92.96,93.77,93.93 C84.73,102.98,73.05,105.52,62.78,105.52 Z" />
+    <path
+        android:name="sunglasses"
+        android:fillColor="#2F2F2F"
+        android:pathData="M3.36,45.68 L58.4,58.89 L69.3,58.89 L126.74,45.8C126.74,45.8,126.17,80.89,96.13,83.52 C72.94,85.54,69.71,69.74,68.89,67.65L58.28,67.24 C58.28,67.24,54.91,85.6,29.91,83.65C4.87,81.69,3.36,45.68,3.36,45.68 Z" />
+    <path
+        android:name="left_shade"
+        android:fillColor="#FFFFFF"
+        android:pathData="@string/u1f60e_left_shade_start" />
+    <path
+        android:name="right_shade"
+        android:fillColor="#FFFFFF"
+        android:pathData="@string/u1f60e_right_shade_start" />
+</vector>

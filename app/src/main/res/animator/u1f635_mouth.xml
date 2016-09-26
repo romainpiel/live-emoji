@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
-    <objectAnimator
-        android:propertyName="pathData"
-        android:valueFrom="@string/u1f635_mouth"
-        android:valueTo="@string/u1f635_mouth_more_open"
-        android:valueType="pathType"
-        android:duration="2000"
-        android:repeatCount="infinite"
-        android:repeatMode="reverse"/>
-</set>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:propertyName="pathData"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse"
+    android:valueFrom="@string/u1f635_mouth"
+    android:valueTo="@string/u1f635_mouth_more_open"
+    android:valueType="pathType" />

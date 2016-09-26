@@ -11,6 +11,12 @@ All credits to [noto-emoji](https://github.com/googlei18n/noto-emoji) for the or
 - Find the svg [there](https://github.com/googlei18n/noto-emoji) and play with it. Then submit a PR, I'll be happy to review it!
 - Or just post an issue with your idea. The more the merrier!
 
+## Contributors
+
+- [romainpiel](https://github.com/RomainPiel)
+- [chiuki](https://github.com/chiuki)
+- [sjthn](https://github.com/sjthn)
+
 ## License
 ```
 Copyright 2016 Romain Piel

@@ -8,8 +8,8 @@ All credits to [noto-emoji](https://github.com/googlei18n/noto-emoji) for the or
 
 ## Can't see your favourite emoji?
 
-- Find the svg [there](https://github.com/googlei18n/noto-emoji) and play with it
-- Or just post an issue with your idea!
+- Find the svg [there](https://github.com/googlei18n/noto-emoji) and play with it. Then submit a PR, I'll be happy to review it!
+- Or just post an issue with your idea. The more the merrier!
 
 ## License
 ```

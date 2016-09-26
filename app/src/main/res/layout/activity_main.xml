@@ -29,4 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:src="@drawable/animated_emoji_u1f613"/>
+    <ImageView
+        android:id="@+id/u1f60e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/animated_emoji_u1f60e"/>
 </LinearLayout>

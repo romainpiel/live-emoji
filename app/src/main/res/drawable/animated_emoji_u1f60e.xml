@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/emoji_u1f60e">
+    <target
+        android:name="left_shade"
+        android:animation="@animator/u1f60e_left_shade_animator" />
+    <target
+        android:name="right_shade"
+        android:animation="@animator/u1f60e_right_shade_animator" />
+</animated-vector>

@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/container"
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:padding="16dp">
-    <ImageView
-        android:id="@+id/u1f603"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/animated_emoji_u1f603"/>
-    <ImageView
-        android:id="@+id/u263a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/animated_emoji_u263a"/>
-    <ImageView
-        android:id="@+id/u1f635"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/animated_emoji_u1f635"/>
-    <ImageView
-        android:id="@+id/u1f613"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/animated_emoji_u1f613"/>
-    <ImageView
-        android:id="@+id/u1f60e"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/animated_emoji_u1f60e"/>
-</LinearLayout>
+    android:padding="16dp"
+    android:clipToPadding="false"/>

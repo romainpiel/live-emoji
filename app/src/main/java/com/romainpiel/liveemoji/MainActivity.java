@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-  private ViewGroup container;
+    private ViewGroup container;
 
-  @Override
+    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
             AnimatedVectorDrawable drawable = (AnimatedVectorDrawable) imageView.getDrawable();
             drawable.stop();
         }
-      super.onStop();
+        super.onStop();
     }
 }

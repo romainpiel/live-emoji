@@ -1,39 +1,47 @@
 package com.romainpiel.liveemoji;
 
-import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private ViewGroup container;
+
+    private EmojiAdapter adapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        container = (ViewGroup) findViewById(R.id.container);
+
+        ArrayList<EmojiViewModel> items = new ArrayList<>();
+        items.add(new EmojiViewModel(R.drawable.animated_emoji_u1f603));
+        items.add(new EmojiViewModel(R.drawable.animated_emoji_u263a));
+        items.add(new EmojiViewModel(R.drawable.animated_emoji_u1f635));
+        items.add(new EmojiViewModel(R.drawable.animated_emoji_u1f613));
+        items.add(new EmojiViewModel(R.drawable.animated_emoji_u1f60e));
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 4));
+
+        adapter = new EmojiAdapter(items);
+        recyclerView.setAdapter(adapter);
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        for (int i = 0; i < container.getChildCount(); i++) {
-            ImageView imageView = (ImageView) container.getChildAt(i);
-            AnimatedVectorDrawable drawable = (AnimatedVectorDrawable) imageView.getDrawable();
-            drawable.start();
-        }
+        adapter.setAnimated(true);
+        adapter.notifyDataSetChanged();
     }
 
     @Override
     protected void onStop() {
-        for (int i = 0; i < container.getChildCount(); i++) {
-            ImageView imageView = (ImageView) container.getChildAt(i);
-            AnimatedVectorDrawable drawable = (AnimatedVectorDrawable) imageView.getDrawable();
-            drawable.stop();
-        }
+        adapter.setAnimated(false);
+        adapter.notifyDataSetChanged();
         super.onStop();
     }
 }
